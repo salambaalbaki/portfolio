@@ -1,1 +1,30 @@
 // Specific CSS for your home-page
+
+.about {
+  margin: 60px 0;
+  height: 70vh;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    color: red;
+  }
+
+  a:hover {
+    color: rgb(200, 7, 7);
+  }
+}
+.about-image {
+  background-image: url(salam_profile_pic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.about-text {
+
+  h3 {
+    font-weight: 600;
+    font-size: 2.5em;
+  }
+}
